@@ -1,6 +1,6 @@
 <h1>Formación React con Alura Latam</h1>
 
-- En esta formación en dos de los cursos de React se procedio a construir una página web o aplicación utilizando React, JavaScript y CSS, siguiendo los pasos del instructor a cargo de los dos cursos de React (React: desarrollando con JavaScript) y (React: como los componentes funcionan).
+En esta formación en dos de los cursos de React se procedio a construir una página web o aplicación utilizando React, JavaScript y CSS, siguiendo los pasos del instructor a cargo de los dos cursos de React (React: desarrollando con JavaScript) y (React: como los componentes funcionan).
 
 Pasos seguidos
 
@@ -11,7 +11,8 @@ Con React contruimos una carpeta llamada componentes donde se crearon mas carpet
 
 - El componente Boton es un componente reutilizable de botón en React que aplica estilos personalizados a través de un archivo CSS. Este componente permite que se pasen elementos hijos (children) para mostrar el contenido dentro del botón.
 
-# Uso
+<h4>Uso</h4>
+
  - Este componente se utiliza en la aplicación para crear botones estilizados de manera consistente. Se puede usar en cualquier parte de la aplicación pasando el contenido del botón como hijos (children).
 
 <h2>Campo</h2>
@@ -19,63 +20,78 @@ Con React contruimos una carpeta llamada componentes donde se crearon mas carpet
 
 - El componente Campo es un componente reutilizable en React que representa un campo de entrada de formulario. Permite la entrada de datos del usuario y puede ser configurado con diferentes propiedades como tipo, título y requisito de campo obligatorio. Además, este componente utiliza estilos personalizados definidos en un archivo CSS.
 
-# Uso
+<h4>Uso</h4>
+
  - Este componente se utiliza para crear campos de entrada de formulario en la aplicación. Se puede configurar con diferentes tipos de campos (por ejemplo, texto, contraseña) y se puede especificar si es obligatorio o no.
 
 <h2>Colaborador</h2>
-# Descripción
+
+<h4>Descripción</h4>
 
 - El componente Colaborador representa un elemento individual de un equipo o lista de colaboradores. Este componente muestra información básica sobre un colaborador, como su nombre, puesto y foto, y también proporciona la funcionalidad para eliminar o marcar como favorito al colaborador. Además, utiliza íconos de React para proporcionar interactividad.
 
-# Uso
+<h4>Uso</h4>
+
  - Este componente se utiliza para mostrar información de cada colaborador en la lista de colaboradores o en la página del equipo. Permite eliminar un colaborador y marcarlo como favorito.
 
 <h2>Equipo</h2>
-# Descripción
+
+<h4>Descripción</h4>
 
 - El componente Equipo representa un conjunto de colaboradores que trabajan juntos en un equipo específico. Este componente muestra el título del equipo y una lista de colaboradores que pertenecen a ese equipo. Permite personalizar el color de fondo del equipo y el color del título mediante la interacción del usuario. Además, este componente utiliza el componente Colaborador para mostrar la información de cada colaborador.
 
-# Uso
+<h4>Uso</h4>
+
  - Este componente se utiliza para mostrar la información de un equipo específico, incluidos los colaboradores que forman parte de él. Permite personalizar el color de fondo del equipo y el color del título mediante la interacción del usuario.
 
 <h2>Footer</h2>
-# Descripción
+
+<h4>Descripción</h4>
 
 - El componente Footer representa el pie de página de la aplicación. Proporciona enlaces a perfiles sociales como GitHub y LinkedIn, junto con el logotipo de la organización y una declaración de autoría. Además, utiliza un archivo de imagen como fondo del pie de página.
 
-# Uso
+<h4>Uso</h4>
+
  - Este componente se utiliza al final de la aplicación para mostrar información adicional, enlaces a perfiles sociales y atribución del desarrollador.
 
 <h2>Formulario</h2>
-# Descripción
+
+<h4>Descripción</h4>
 
 - El componente Formulario es una sección de la aplicación donde los usuarios pueden ingresar información para crear un nuevo colaborador o un nuevo equipo. Proporciona campos de entrada para nombre, puesto, foto y equipo del colaborador, así como también para título y color del equipo. Este componente utiliza los componentes Campo, ListaOpciones y Boton para recopilar y enviar la información del formulario.
 
-# Uso
+<h4>Uso</h4>
+
  - Este componente se utiliza en la aplicación para recopilar información y crear nuevos colaboradores y equipos. Los usuarios pueden completar los campos requeridos y enviar el formulario para registrar la información.
 
 <h2>Header</h2>
-# Descripción
+
+<h4>Descripción</h4>
 
 - El componente Header representa la cabecera de la aplicación. Muestra el logotipo de la organización o una imagen representativa en la parte superior de la página. Este componente proporciona una identidad visual a la aplicación y puede contener elementos adicionales como un menú de navegación o enlaces importantes.
 
-# Uso
+<h4>Uso</h4>
+
  - Este componente se utiliza al principio de la aplicación para mostrar el logotipo o una imagen representativa de la organización.
 
 <h2>ListaOpciones</h2>
-# Descripción
+
+<h4>Descripción</h4>
 
 - El componente ListaOpciones es un componente de selección en forma de lista desplegable en React. Permite a los usuarios seleccionar entre diferentes opciones de equipos disponibles. Este componente recibe una lista de equipos como prop y proporciona una forma de seleccionar un equipo específico.
 
-# Uso
+<h4>Uso</h4>
+
  - Este componente se utiliza en el formulario para permitir a los usuarios seleccionar un equipo al que pertenecerá el nuevo colaborador.
 
 <h2>MiOrg</h2>
-# Descripción
+
+<h4>Descripción</h4>
 
 - El componente MiOrg representa una sección de la aplicación que muestra información sobre la organización del usuario. Incluye un título y un botón de agregar que permite al usuario realizar acciones relacionadas con la organización. Este componente puede tener funcionalidades adicionales que pueden ser controladas mediante el estado.
 
-# Uso
+<h4>Uso</h4>
+
  - Este componente se utiliza en la aplicación para mostrar información sobre la organización del usuario, como el título y el botón de agregar.
 
 <h2>Publicación del proyecto</h2>
