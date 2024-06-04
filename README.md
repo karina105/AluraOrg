@@ -7,7 +7,8 @@ Pasos seguidos
 Con React contruimos una carpeta llamada componentes donde se crearon mas carpetas y en cada una se añadieron los documentos de JavaScript y CSS necesarios para construir el proyecto y a continuación se describe carpeta lo que se hiso en cada una:
 
 <h2>Boton</h2>
-# Descripción
+
+<h4>Descripción</h4>
 
 - El componente Boton es un componente reutilizable de botón en React que aplica estilos personalizados a través de un archivo CSS. Este componente permite que se pasen elementos hijos (children) para mostrar el contenido dentro del botón.
 
@@ -16,7 +17,8 @@ Con React contruimos una carpeta llamada componentes donde se crearon mas carpet
  - Este componente se utiliza en la aplicación para crear botones estilizados de manera consistente. Se puede usar en cualquier parte de la aplicación pasando el contenido del botón como hijos (children).
 
 <h2>Campo</h2>
-# Descripción
+
+<h4>Descripción</h4>
 
 - El componente Campo es un componente reutilizable en React que representa un campo de entrada de formulario. Permite la entrada de datos del usuario y puede ser configurado con diferentes propiedades como tipo, título y requisito de campo obligatorio. Además, este componente utiliza estilos personalizados definidos en un archivo CSS.
 
